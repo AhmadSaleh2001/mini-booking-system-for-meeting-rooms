@@ -1,0 +1,62 @@
+.SearchBody
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.RoomsBody
+{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap:10px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.Modal{
+    position: absolute;
+    padding:30px;
+    border:1px solid red;
+    left:50%;
+    top:10px;
+    transform: translateX(-50%);
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    
+}
+
+.Modal .Day{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border:1px solid blue;
+    border-radius: 10px;
+    padding:10px;
+    margin-top: 20px;
+}
+
+.Modal .Day h6{
+    text-align: center;
+}
+
+.Modal .Day > *
+{
+    margin: 5px;
+}
+
+.Modal .Day .Slot{
+    
+    padding:5px;
+}
+.CloseBtn
+{
+    right:5px;
+    top:5px;
+    position: absolute;
+}
